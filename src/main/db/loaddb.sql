@@ -1,7 +1,7 @@
-DROP TABLE Carte;
+DROP TABLE IF EXISTS Carte;
 
 create table Carte(
-    id int NOT NULL auto_increment,
+    id int unsigned NOT NULL auto_increment,
     texte VARCHAR(200),
     PRIMARY KEY(id)
 )
